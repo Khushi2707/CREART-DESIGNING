@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Page</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 36px;
+			font-weight: normal;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		.profile-picture {
+			flex-basis: 30%;
+			max-width: 300px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			overflow: hidden;
+			border-radius: 50%;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+		}
+
+		.profile-picture img {
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+
+		.profile-details {
+			flex-basis: 60%;
+			margin-bottom: 20px;
+		}
+
+		.profile-details h2 {
+			font-size: 28px;
+			margin-top: 0;
+		}
+
+		.profile-details p {
+			margin: 0;
+			font-size: 18px;
+			color: #666;
+			line-height: 1.5;
+		}
+
+		.social-links {
+			margin-top: 20px;
+			display: flex;
+			align-items: center;
+		}
+
+		.social-link {
+			margin-right: 20px;
+			font-size: 24px;
+			color: #666;
+			transition: color 0.3s;
+		}
+
+		.social-link:hover {
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>My Profile Page</h1>
+	</header>
+
+	<div class="container">
+		<div class="profile-picture">
+			<img src="https://media.licdn.com/dms/image/D4D03AQEr_XJx8rtJOA/profile-displayphoto-shrink_800_800/0/1676989420919?e=2147483647&v=beta&t=IGxGj61JUg4WiWxIUzWdZp3yS7D0oS4J5EskmLIvuSs" alt="Profile Picture">
+		</div>
+
+		<div class="profile-details">
+			<h2>mihir joshi</h2>
+			<p>Web Developer</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac erat a metus lacinia imperdiet.</p>
+
+			<div class="social-links">
+				<a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+				<a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+				<a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+				<a href="#" class="social-link"><i class="fab fa-github"></i></a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
